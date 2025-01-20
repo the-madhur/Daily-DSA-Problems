@@ -131,31 +131,110 @@ public class LbAllPatterns
 
         // Numeric Half Pyramid
         
-        System.out.println("Numeric Half Pyramid");
-        System.out.println("Enter value of n2 for Numeric half Pyramid");
-        int n2 = sc.nextInt();
-        for(int row = 0; row<n2; row++)
+        // System.out.println("Numeric Half Pyramid");
+        // System.out.println("Enter value of n2 for Numeric half Pyramid");
+        // int n2 = sc.nextInt();
+        // for(int row = 0; row<n2; row++)
+        // {
+        //     for(int col =0;col<row +1;col++)
+        //     {
+        //         System.out.print(col + 1);
+        //     }
+        //     System.out.println();
+        // }
+
+        // // Numeric Inverted Half Pyramid
+        
+        // System.out.println("Numeric Half Pyramid");
+        // System.out.println("Enter value of n3 for Inverted Numeric half Pyramid");
+        // int n3 = sc.nextInt();
+        // for(int row = 0; row<n2; row++)
+        // {
+        //     for(int col =0;col<n3-row;col++)
+        //     {
+        //         System.out.print(col + 1);
+        //     }
+        //     System.out.println();
+        // }
+
+        // FULL PYRAMID 
+        // System.out.println("Enter value of n4 for Full Pyramid");
+        // int n4 = sc.nextInt();
+        // for (int row = 0;row<n4;row++)
+        // {
+        //     // space 
+        //     for(int col = 0; col<n4-(row+1);col++)
+        //     {
+        //         System.out.print(" ");
+        //     }
+
+        //     // star 
+        //     for(int col = 0; col<row+1;col++)
+        //     {
+        //         System.out.print("* ");
+        //     }
+
+        //     System.out.println();
+        // }
+
+        // INVERTED FULL PYRAMID
+        // System.out.println("Enter value of n5 for Inverted Full Pyramid");
+        // int n5 = sc.nextInt();
+        // for (int row = 0;row<n5;row++)
+        // {
+        //     // space 
+        //     for(int col = 0; col<row;col++)
+        //     {
+        //         System.out.print(" ");
+        //     }
+
+        //     // star 
+        //     for(int col = 0; col<n5-row;col++)
+        //     {
+        //         System.out.print("* ");
+        //     }
+
+        //     System.out.println();
+        // }
+        
+        // Solid Pyramid   - Full Pyramid + Inverted Full Pyramid
+        System.out.println("Enter value of n5 for Solid Pyramid");
+        int n6 = sc.nextInt();
+
+        // Full Pyramid 
+        for(int row = 0;row<n6;row++)
         {
-            for(int col =0;col<row +1;col++)
+            // space
+            for(int col =0;col<n6-(row + 1);col++)
             {
-                System.out.print(col + 1);
+                System.out.print(" ");
+            }
+
+            // star 
+            for(int col =0;col<row+1;col++)
+            {
+                System.out.print("* ");
             }
             System.out.println();
         }
 
-        // Numeric Inverted Half Pyramid
-        
-        System.out.println("Numeric Half Pyramid");
-        System.out.println("Enter value of n3 for Inverted Numeric half Pyramid");
-        int n3 = sc.nextInt();
-        for(int row = 0; row<n2; row++)
+        // Inverted Full Pyramid 
+        for(int row = 0;row<n6;row++)
         {
-            for(int col =0;col<n3-row;col++)
+            // space
+            for(int col =0;col<row;col++)
             {
-                System.out.print(col + 1);
+                System.out.print(" ");
+            }
+
+            // star 
+            for(int col =0;col<n6-row;col++)
+            {
+                System.out.print("* ");
             }
             System.out.println();
         }
+
     }
 
 }
