@@ -39,7 +39,7 @@ public class LbAllPatterns
         //         }
         //     }
         //     else{
-        //         // remaining rows (miidle)
+        //         // remaining rows (middle)
                 
         //         System.out.print("* ");      // middle row 1st star
 
