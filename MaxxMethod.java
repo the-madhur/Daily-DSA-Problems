@@ -1,3 +1,5 @@
+// Find Maximum Number 
+
 import java.util.Scanner;
 
 public class MaxxMethod 
@@ -19,9 +21,7 @@ public class MaxxMethod
         
     }
     public static void main(String[] args) 
-    {
-        // write a function to add 2 no
-        
+    {        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter value of a: ");
         int a = sc.nextInt();

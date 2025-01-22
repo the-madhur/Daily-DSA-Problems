@@ -1,3 +1,5 @@
+// write a Method for Adding two numbers  
+
 import java.util.Scanner;
 
 public class AddMethod 
@@ -8,9 +10,7 @@ public class AddMethod
         return result;
     }
     public static void main(String[] args)
-    {
-        // write a function to add 2 no
-        
+    {   
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of a: ");
         int a = sc.nextInt();

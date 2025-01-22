@@ -1,4 +1,4 @@
-// Print counting from 1 to N
+// Print counting from 1 to N 
 
 import java.util.Scanner;
 
