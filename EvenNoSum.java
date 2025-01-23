@@ -1,4 +1,5 @@
-// Method for Even no Sum 
+//Even no Sum 
+
 import java.util.Scanner;
 
 public class EvenNoSum 
