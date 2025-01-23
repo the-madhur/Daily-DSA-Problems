@@ -1,4 +1,4 @@
-// write a Method for Adding two numbers  
+// Write a Method for Adding two numbers  
 
 import java.util.Scanner;
 
