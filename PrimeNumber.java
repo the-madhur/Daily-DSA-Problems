@@ -8,7 +8,7 @@ public class PrimeNumber
         {
             return "Not Prime";
         }
-        for(int i =2; i<=x/2;i++)   // iterate from 2 to x/2 because any other divisor except from 1 and x found between this iteration
+        for(int i =2; i<=x/2;i++)   //iterate from 2 to x/2 because any other divisor except from 1 and x found between this iteration
         {
             if(x%i==0)  // If x % i == 0, return "Not Prime" because we found a divisor other than 1 and x.
             {
