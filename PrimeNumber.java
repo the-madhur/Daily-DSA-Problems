@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PrimeNumber 
 {
-    public static String GetPrime(int x)
+    public static String GetPrime(int x)  // static is used here because it can invoked or called easily without creating an object in main method
     {
         if(x<=1)
         {

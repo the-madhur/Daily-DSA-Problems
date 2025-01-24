@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NprimeNo 
 {
-    public static void GetPrime(int n)
+    public static void GetPrime(int n)  
     {
         if (n <= 1) 
         {
@@ -28,7 +28,7 @@ public class NprimeNo
     {
         for (int i = 2; i <= x / 2; i++) 
         {
-            if (x % i == 0) 
+            if (x % i == 0)   // If x is divisible by any number other than 1 and itself
             {
                 return false; // If divisible, it's not prime
             }

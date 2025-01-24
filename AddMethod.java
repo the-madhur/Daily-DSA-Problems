@@ -2,11 +2,11 @@
 
 import java.util.Scanner;
 
-public class AddMethod 
+public class AddMethod   // class name should be same as the file name
 {
     public static int Add(int a, int b)   // static is used here because it can invoked or called easily without creating an object in main method
     {
-        int result = a+b;
+        int result = a+b;  // adding two numbers
         return result;
     }
     public static void main(String[] args)
@@ -17,8 +17,8 @@ public class AddMethod
         System.out.println("Enter the value of b: ");
         int b = sc.nextInt();
 
-        int sum =Add(a,b);
-        System.out.println("Addition of two no's is: "+sum);
+        int sum =Add(a,b); // calling the method Add
+        System.out.println("Addition of two no's is: "+sum); // printing the result
     }
     
 }

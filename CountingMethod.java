@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class CountingMethod 
 {
     // here n is parameter 
-    public static void printCounting(int num)
+    public static void printCounting(int num)  // static is used here because it can invoked or called easily without creating an object in main method
     {
-        for(int i=1;i<=num;i++)
+        for(int i=1;i<=num;i++) // loop to print counting from 1 to n
         {
             System.out.print(i+" ");
         }
