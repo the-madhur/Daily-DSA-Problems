@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class CelsiusToFaherenheit 
+public class CelsiusToFaherenheit
 {
     public static float GetF(float num)
     {
