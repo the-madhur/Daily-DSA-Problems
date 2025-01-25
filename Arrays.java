@@ -63,17 +63,34 @@ public class Arrays
         
 
         // taking 5 inputs in array and print their doubles
+        // int arr[] = new int[5];
+        // System.out.println("Enter the elements of the array: ");
+        // for(int i =0;i<5;i++)
+        // {
+        //     arr[i] = sc.nextInt();    
+        // }
+
+        // // print Doubles of the elements of array
+        // for(int i =0; i<5; i++)
+        // {
+        //     System.out.println(arr[i]*2);  // this arr[i]*2 will print the double of the elements of the array
+        // }
+
+        // taking inputs in array and initializing them with 1
         int arr[] = new int[5];
         System.out.println("Enter the elements of the array: ");
         for(int i =0;i<5;i++)
         {
-            arr[i] = sc.nextInt();     
+            arr[i] = sc.nextInt(); 
+            arr[i] = 1; // initializing the elements of the array with 1   
         }
 
-        // print Doubles of the elements of array
+        // print elements of array after initializing them with 1
         for(int i =0; i<5; i++)
         {
-            System.out.println(arr[i]*2);  // this arr[i]*2 will print the double of the elements of the array
+            System.out.println(arr[i]);  // this arr[i]*2 will print the double of the elements of the array
         }
+
+        
     }
 }
