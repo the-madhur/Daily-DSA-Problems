@@ -48,9 +48,6 @@ public class Loops
                 i=i+1;
             }
         }
-
-        int n =20;
-        if(n>)
     }
     
 }
