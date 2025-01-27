@@ -63,7 +63,7 @@ public class ExtremeArrayPrint
         {
             arr[i] = sc.nextInt();
         }
-        // print elemnts of the array
+        // print elements of the array
         System.out.println("Elements of the array are: ");
         for(int i=0; i<size; i++)
         {
