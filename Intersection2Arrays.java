@@ -7,6 +7,7 @@ public class Intersection2Arrays
         arr.add(1);
         arr.add(2);
         arr.add(3);
+        arr.add(3);
         arr.add(4);
         arr.add(4);
         arr.add(6);
