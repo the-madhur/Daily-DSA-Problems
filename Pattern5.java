@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Pattern5
 {
-    public static void Pattern(int n )
+    public static void Pattern(int n)
     {
         for(int i =1;i<=n;i++)
         {
@@ -14,10 +14,11 @@ public class Pattern5
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the value");
         int n = sc.nextInt();
         Pattern(n);
-    
+    }
 }

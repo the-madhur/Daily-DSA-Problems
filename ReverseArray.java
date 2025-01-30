@@ -33,8 +33,7 @@ public class ReverseArray
             arr[end] = temp;
 
             start++;
-            end--;
-
+            end--; 
         }
         
         // printing reverse elements of array

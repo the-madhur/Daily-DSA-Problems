@@ -14,7 +14,7 @@ public class PrimeNumber
             {
                 return "Not Prime";
             }
-        } 
+        }
         return "Prime";
     }
     public static void main(String[] args) 
