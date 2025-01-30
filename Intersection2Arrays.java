@@ -3,6 +3,7 @@ public class Intersection2Arrays
 {
     public static void main(String[] args) 
     {
+        
         Vector<Integer> arr = new Vector<>();
         arr.add(1);
         arr.add(2);
