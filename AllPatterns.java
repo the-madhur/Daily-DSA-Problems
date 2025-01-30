@@ -1,3 +1,5 @@
+//Most of the patterns covered in this file.
+
 import java.util.Scanner;
 
 public class AllPatterns 
