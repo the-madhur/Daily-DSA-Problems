@@ -6,6 +6,8 @@ public class PairSumVectorArray
 {
     public static void main(String[] args) 
     {
+        int sum =50;
+        
         Vector<Integer> arr = new Vector<>();
         arr.add(10);
         arr.add(20);
@@ -21,10 +23,14 @@ public class PairSumVectorArray
             for(int j =i+1;j<arr.size();j++)
             {
                 // System.out.println("pair "+element+" with "+arr.get(j));  // for understanding flow of code
-                System.out.println("{"+element+","+arr.get(j)+"}");
+                
+                if(element+arr.get(j)==sum)
+                {    
+                    System.out.println("Pair Found: "+"{"+element+", "+arr.get(j)+"}");
+                }
             }
-        }
         
-    }
+        }
     
+    }
 }
