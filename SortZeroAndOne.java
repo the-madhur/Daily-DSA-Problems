@@ -19,6 +19,7 @@ public class SortZeroAndOne
         arr.add(1);
         arr.add(0);
         arr.add(0);
+    
 
         int start = 0;
         int end = arr.size() - 1;

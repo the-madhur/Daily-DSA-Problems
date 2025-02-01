@@ -9,6 +9,7 @@ public class TripletSumVector
 
         int sum = 70;
 
+        // Vector to store the elements
         Vector<Integer> arr = new Vector<>();
 
         arr.add(10);

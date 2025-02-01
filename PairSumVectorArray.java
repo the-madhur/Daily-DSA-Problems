@@ -8,6 +8,7 @@ public class PairSumVectorArray
     {
         int sum =50;
         
+        // Vector to store the elements
         Vector<Integer> arr = new Vector<>();
         arr.add(10);
         arr.add(20);
