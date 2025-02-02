@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Vector;
 public class SortZeroAndOne 
 {
@@ -8,33 +9,43 @@ public class SortZeroAndOne
         arr.set(j, temp);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
+        Scanner scanner = new Scanner(System.in);
         Vector<Integer> arr = new Vector<>();
-        arr.add(0);
-        arr.add(1);
-        arr.add(1);
-        arr.add(0);
-        arr.add(1);
-        arr.add(0);
-        arr.add(1);
-        arr.add(0);
-        arr.add(0);
-    
 
+        System.out.println("Enter the number of elements:");
+        int n = scanner.nextInt();
+
+        System.out.println("Enter elements (only 0 and 1):");
+        for (int i = 0; i < n; i++) 
+        {
+            int num = scanner.nextInt();
+            if (num == 0 || num == 1) 
+            {
+                arr.add(num);
+            } 
+            else 
+            {
+                System.out.println("Invalid input! Only 0 and 1 are allowed.");
+                i--; // Re-enter the value
+            }
+        }
         int start = 0;
         int end = arr.size() - 1;
+        int i =0;
 
-        while (start < end) {
-            while (start < end && arr.get(start) == 0) 
+        while (i<end) 
+        {
+            if(arr.get(i)==0)
             {
+                swap(arr,i,start);
                 start++;
+                i++;
             }
-            while (start < end && arr.get(end) == 1) {
-                end--;
-            }
-            if (start < end) {
+            if(arr.get(i)==1) 
+            {
                 swap(arr, start, end);
-                start++;
                 end--;
             }
         }
