@@ -1,3 +1,7 @@
+// declaration , initialisation , printing of 2D arrays
+// row wise printing
+// column wise printing
+
 public class TwoDarray1 
 {
     public static void main(String[] args) 
